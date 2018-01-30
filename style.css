@@ -1,0 +1,73 @@
+@font-face {
+font-family: Helvetica;
+src: url(fonts/HelveticaLTStd-Bold.otf);
+}
+@font-family{
+    font-family:Helvetica-reg;
+    src: url(fonts/HelveticaLTStd-Roman.otf);
+}
+body {
+  background-color: #ccc;
+}   
+.caption{
+    text-align: center;
+    color: #000;
+    font-size: 15px;
+    font-family: Helvetica;
+    font-weight: 500;
+    padding-top: 15px;
+}
+.image{
+    height:500px;
+    width: 353px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+.center {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+#b1 {
+    width: 82px;
+    height: 84px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background: #3378BB;
+    -webkit-transition: width 2s; /* Safari */
+    transition: width 2s;
+        max-width: 100%;
+
+}
+#b1:hover {
+    width: 247px;
+}
+#b2 {
+    width: 82px;
+    height: 82px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background: #F6CB02;
+    -webkit-transition: width 2s; /* Safari */
+    transition: width 2s;
+}
+#b2:hover {
+    width:  247px;
+}
+#b3 {
+    width: 82px;
+    height: 82px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background: #981602;
+    -webkit-transition: width 2s; /* Safari */
+    transition: width 2s;
+}
+#b3:hover {
+    width:  247px;
+}
